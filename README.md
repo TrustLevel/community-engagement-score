@@ -7,7 +7,7 @@
 
 # System Overview
 
-<div align="center">
+<div align="center" style="background-color:white">
     <img src="docs/images/system_overview.png" alt="System context overview">
     <p>
         System context overview - <a target="__blank" href="docs/images/system_overview.drawio">source</a>
