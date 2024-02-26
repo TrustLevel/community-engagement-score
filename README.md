@@ -2,8 +2,17 @@
 
 # Setup
 * Install DuckDB `brew install duckdb`
-* Start DuckDB with tables loaded `make demo`
+* Start DuckDB with tables loaded `make db`
 * Query data
+
+# System Overview
+
+<div align="center">
+    <img src="docs/images/system_overview.png" alt="System context overview">
+    <p>
+        System context overview - <a target="__blank" href="docs/images/system_overview.drawio">source</a>
+    </p>
+</div>
 
 # Data Model
 Data model using [Crow's_foot_notation](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model#Crow's_foot_notation)
