@@ -1,9 +1,13 @@
 # Community Engagement Score
 
+# Todo
+- [ ] Try https://duckdb.org/2022/10/12/modern-data-stack-in-a-box.html
+
+
 # Setup
 * Install DuckDB `brew install duckdb`
-* Start DuckDB with tables loaded `make db`
-* Query data
+* To dynamically explore the data run `make db` and write queries
+* To generate a report for the data in the `data` folder run `make report`
 
 # System Overview
 
@@ -68,3 +72,11 @@ erDiagram
     USER ||--|{ ANSWER : gives
     QUESTION  ||--|{ ANSWER : belongs_to
 ```
+
+# Square Root Voting Formula:
+
+$\text{Average Grade} = \frac{\sum (\sqrt{\text{tokens}_i} \times \text{grade}_i)}{\sum \sqrt{\text{tokens}_i}}$
+
+Where:
+* $tokens_i$: Number of tokens held by user $i$.
+* $grade_i$: Grade assigned by user $i$
