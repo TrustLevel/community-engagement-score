@@ -1,4 +1,6 @@
-# Community Engagement Score
+# [DEPRECATED] Community Engagement Score
+
+:warning: This repository was moved to https://github.com/Photrek/Community-Governance/tree/main/CES_MVP :warning:
 
 # Todo
 - [ ] Try https://duckdb.org/2022/10/12/modern-data-stack-in-a-box.html
